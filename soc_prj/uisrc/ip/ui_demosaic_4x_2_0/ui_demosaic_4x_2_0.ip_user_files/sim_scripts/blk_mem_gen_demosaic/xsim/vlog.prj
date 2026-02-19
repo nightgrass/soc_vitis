@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../demosaic_4x_2_0.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

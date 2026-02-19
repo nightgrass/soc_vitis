@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Aug 29 16:04:37 2025
+# Process ID: 1751448
+# Current directory: H:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1746556 H:\ISP\isp_3_2_imx415_ku5p\isp_3_2_imx415_ku5p\soc_prj\uisrc\03_ip\ui_ISP\ui_imx415\ui_imx415.xpr
+# Log file: H:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/vivado.log
+# Journal file: H:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/ui_imx415.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'H:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415'
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'H:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/uiimx415_top'.
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'H:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/ui_imx415.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'i:/isp_1x/isp_4x/uiimx415_top'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'h:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/uiimx415_top'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/vivado/2021.1/data/ip'.
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file H:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/component.xml
+WARNING: [IP_Flow 19-5226] Project source file 'h:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'h:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/ae_set.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'h:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/key.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'h:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/uii2c.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'h:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/uiimx415_top.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'h:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/uiimx415reg.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'h:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/imx415_AE_top.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'h:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/ae_set.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'h:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/key.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'h:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/uii2c.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'h:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/uiimx415_top.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'h:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/uiimx415reg.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'h:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/imx415_AE_top.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+set_property display_name ui_imx415_v1_1 [ipx::current_core]
+set_property description ui_imx415_v1_1 [ipx::current_core]
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'h:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/component.xml' ignored by IP packager.
+set_property widget {textEdit} [ipgui::get_guiparamspec -name "AE_SET" -component [ipx::current_core] ]
+set_property value 50 [ipx::get_user_parameters AE_SET -of_objects [ipx::current_core]]
+set_property value 50 [ipx::get_hdl_parameters AE_SET -of_objects [ipx::current_core]]
+set_property value_validation_type range_long [ipx::get_user_parameters AE_SET -of_objects [ipx::current_core]]
+set_property value_validation_range_minimum 0 [ipx::get_user_parameters AE_SET -of_objects [ipx::current_core]]
+set_property value_validation_range_maximum 360 [ipx::get_user_parameters AE_SET -of_objects [ipx::current_core]]
+set_property widget {comboBox} [ipgui::get_guiparamspec -name "Resolution" -component [ipx::current_core] ]
+set_property value_validation_type list [ipx::get_user_parameters Resolution -of_objects [ipx::current_core]]
+set_property value_validation_list {imx415_1280x720 imx415_3840x2160_30 imx415_1920x1080} [ipx::get_user_parameters Resolution -of_objects [ipx::current_core]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+WARNING: [IP_Flow 19-3157] Bus Interface 'I_rst_n': Bus parameter POLARITY is ACTIVE_LOW but port 'I_rst_n' is not *resetn - please double check the POLARITY setting.
+WARNING: [IP_Flow 19-5661] Bus Interface 'I_clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path h:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'h:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415'
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 29 16:06:03 2025...

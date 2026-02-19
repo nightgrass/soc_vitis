@@ -1,0 +1,451 @@
+
+*** Running vivado
+    with args -log top_demosaic.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_demosaic.tcl
+
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source top_demosaic.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'i:/isp_1x/isp_4x/demosaic_4x_2_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/vivado/2021.1/data/ip'.
+Command: synth_design -top top_demosaic -part xcku5p-ffvb676-1-i
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcku5p'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcku5p'
+INFO: [Device 21-403] Loading part xcku5p-ffvb676-1-i
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1304224
+WARNING: [Synth 8-1102] /* in comment [I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/top_demosaic.v:89]
+WARNING: [Synth 8-1102] /* in comment [I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/top_demosaic.v:100]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 1721.406 ; gain = 164.547
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_demosaic' [I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/top_demosaic.v:20]
+INFO: [Synth 8-6157] synthesizing module 'raw_matrix_3x3_buffer' [I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/raw_matrix_3x3_buffer.v:21]
+	Parameter IMG_HEIGHT bound to: 1080 - type: integer 
+	Parameter IMG_WIDTH bound to: 1920 - type: integer 
+	Parameter data_complete_delay bound to: 50 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'line_buffer_demosaic' [I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/line_buffer_demosaic.v:20]
+	Parameter IMG_HEIGHT bound to: 1080 - type: integer 
+	Parameter IMG_WIDTH bound to: 1920 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_demosaic' [i:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/ui_demosaic_4x_2_0.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd:71]
+	Parameter C_FAMILY bound to: kintexuplus - type: string 
+	Parameter C_XDEVICEFAMILY bound to: kintexuplus - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 1 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: blk_mem_gen_demosaic.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: NO_CHANGE - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 32 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 32 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 2048 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 2048 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 11 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: READ_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 32 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 32 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 2048 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 2048 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 11 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 1 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 2 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     7.257003 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_4' declared at 'i:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/ui_demosaic_4x_2_0.gen/sources_1/ip/blk_mem_gen_demosaic/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_4' [i:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/ui_demosaic_4x_2_0.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd:239]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_demosaic' (9#1) [i:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/ui_demosaic_4x_2_0.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd:71]
+WARNING: [Synth 8-689] width (33) of port connection 'dina' does not match port width (32) of module 'blk_mem_gen_demosaic' [I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/line_buffer_demosaic.v:102]
+WARNING: [Synth 8-689] width (33) of port connection 'doutb' does not match port width (32) of module 'blk_mem_gen_demosaic' [I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/line_buffer_demosaic.v:105]
+INFO: [Synth 8-6155] done synthesizing module 'line_buffer_demosaic' (10#1) [I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/line_buffer_demosaic.v:20]
+INFO: [Synth 8-6157] synthesizing module 'mipi_to_raw_converter' [I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/mipi_to_raw_converter.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'mipi_to_raw_converter' (11#1) [I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/mipi_to_raw_converter.v:20]
+INFO: [Synth 8-6157] synthesizing module 'zhenghe' [I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/zhenghe.v:21]
+	Parameter IMG_WIDTH bound to: 1920 - type: integer 
+	Parameter IMG_HEIGHT bound to: 1080 - type: integer 
+	Parameter DATA_WIDTH bound to: 9'b000100000 
+	Parameter data_complete_delay bound to: 50 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_zhenghe' [i:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/ui_demosaic_4x_2_0.gen/sources_1/ip/blk_mem_gen_zhenghe/synth/blk_mem_gen_zhenghe.vhd:71]
+	Parameter C_FAMILY bound to: kintexuplus - type: string 
+	Parameter C_XDEVICEFAMILY bound to: kintexuplus - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 1 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: blk_mem_gen_zhenghe.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: NO_CHANGE - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 96 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 96 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 2048 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 2048 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 11 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: READ_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 96 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 96 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 2048 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 2048 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 11 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 1 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 5 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     20.832706 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_4' declared at 'i:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/ui_demosaic_4x_2_0.gen/sources_1/ip/blk_mem_gen_demosaic/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_4' [i:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/ui_demosaic_4x_2_0.gen/sources_1/ip/blk_mem_gen_zhenghe/synth/blk_mem_gen_zhenghe.vhd:239]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_zhenghe' (12#1) [i:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/ui_demosaic_4x_2_0.gen/sources_1/ip/blk_mem_gen_zhenghe/synth/blk_mem_gen_zhenghe.vhd:71]
+WARNING: [Synth 8-689] width (32) of port connection 'doutb' does not match port width (96) of module 'blk_mem_gen_zhenghe' [I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/zhenghe.v:174]
+INFO: [Synth 8-6155] done synthesizing module 'zhenghe' (13#1) [I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/zhenghe.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'raw_matrix_3x3_buffer' (14#1) [I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/raw_matrix_3x3_buffer.v:21]
+INFO: [Synth 8-6157] synthesizing module 'bilinear_interpolation' [I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/bilinear_interpolation.v:22]
+	Parameter BAYER_MODE bound to: BGGR - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'bilinear_interpolation' (15#1) [I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/bilinear_interpolation.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'top_demosaic' (16#1) [I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/top_demosaic.v:20]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 2139.805 ; gain = 582.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 2139.805 ; gain = 582.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 2139.805 ; gain = 582.945
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 2139.805 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/ui_demosaic_4x_2_0.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/ui_demosaic_4x_2_0.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2139.805 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 2139.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:25 . Memory (MB): peak = 2139.805 ; gain = 582.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcku5p-ffvb676-1-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:25 . Memory (MB): peak = 2139.805 ; gain = 582.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for raw_matrix_3x3_buffer_d/\two_line_buffer[1].line_buffer_demosaic_r1 /blk_mem_gen_demosaic_r0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for raw_matrix_3x3_buffer_d/\two_line_buffer[2].line_buffer_demosaic_r1 /blk_mem_gen_demosaic_r0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:25 . Memory (MB): peak = 2139.805 ; gain = 582.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:26 . Memory (MB): peak = 2139.805 ; gain = 582.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   21 Bit       Adders := 1     
+	   2 Input   17 Bit       Adders := 1     
+	   2 Input   16 Bit       Adders := 3     
+	   2 Input   14 Bit       Adders := 3     
+	   2 Input   11 Bit       Adders := 6     
+	   2 Input   10 Bit       Adders := 8     
+	   2 Input    9 Bit       Adders := 16    
++---Registers : 
+	               96 Bit    Registers := 3     
+	               33 Bit    Registers := 5     
+	               32 Bit    Registers := 6     
+	               21 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	               14 Bit    Registers := 4     
+	               11 Bit    Registers := 6     
+	               10 Bit    Registers := 12    
+	                9 Bit    Registers := 32    
+	                8 Bit    Registers := 12    
+	                5 Bit    Registers := 3     
+	                1 Bit    Registers := 30    
++---Muxes : 
+	   3 Input   96 Bit        Muxes := 3     
+	   2 Input   96 Bit        Muxes := 9     
+	   2 Input   21 Bit        Muxes := 2     
+	   2 Input   16 Bit        Muxes := 1     
+	   2 Input   14 Bit        Muxes := 5     
+	   2 Input   11 Bit        Muxes := 12    
+	   2 Input    9 Bit        Muxes := 32    
+	   2 Input    8 Bit        Muxes := 12    
+	   3 Input    2 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1824 (col length:96)
+BRAMs: 960 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:29 . Memory (MB): peak = 2139.805 ; gain = 582.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:35 . Memory (MB): peak = 2343.031 ; gain = 786.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:35 . Memory (MB): peak = 2345.141 ; gain = 788.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:35 . Memory (MB): peak = 2378.168 ; gain = 821.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:37 . Memory (MB): peak = 2391.973 ; gain = 835.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:37 . Memory (MB): peak = 2391.973 ; gain = 835.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:37 . Memory (MB): peak = 2391.973 ; gain = 835.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:37 . Memory (MB): peak = 2391.973 ; gain = 835.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:37 . Memory (MB): peak = 2391.973 ; gain = 835.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:37 . Memory (MB): peak = 2391.973 ; gain = 835.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++-------------+-------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name  | RTL Name                                  | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++-------------+-------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|top_demosaic | bilinear_interpolation_d/I_tlast_r_reg[4] | 9      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|top_demosaic | bilinear_interpolation_d/I_tuser_r_reg[4] | 8      | 1     | YES          | NO                 | YES               | 1      | 0       | 
++-------------+-------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY8   |    24|
+|3     |LUT1     |     5|
+|4     |LUT2     |   235|
+|5     |LUT3     |   288|
+|6     |LUT4     |   211|
+|7     |LUT5     |   234|
+|8     |LUT6     |   304|
+|9     |RAMB18E2 |     1|
+|10    |RAMB36E2 |     6|
+|11    |SRL16E   |     2|
+|12    |FDCE     |  1163|
+|13    |FDPE     |     4|
+|14    |FDRE     |     2|
+|15    |IBUF     |    38|
+|16    |OBUF     |   132|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:37 . Memory (MB): peak = 2391.973 ; gain = 835.113
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:04 ; elapsed = 00:00:35 . Memory (MB): peak = 2391.973 ; gain = 835.113
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:37 . Memory (MB): peak = 2391.973 ; gain = 835.113
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 2400.051 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 63 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2426.777 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 39 instances were transformed.
+  BUFG => BUFGCE: 1 instance 
+  IBUF => IBUF (IBUFCTRL, INBUF): 38 instances
+
+Synth Design complete, checksum: 12559f91
+INFO: [Common 17-83] Releasing license: Synthesis
+36 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:41 . Memory (MB): peak = 2426.777 ; gain = 1144.012
+INFO: [Common 17-1381] The checkpoint 'I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/ui_demosaic_4x_2_0.runs/synth_1/top_demosaic.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_demosaic_utilization_synth.rpt -pb top_demosaic_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 29 09:34:24 2025...

@@ -1,0 +1,2 @@
+blk_mem_gen_zhenghe.v,verilog,xil_defaultlib,../../../../demosaic_4x_2_0.gen/sources_1/ip/blk_mem_gen_zhenghe/sim/blk_mem_gen_zhenghe.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

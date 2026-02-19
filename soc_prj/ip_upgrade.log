@@ -1,0 +1,1152 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Feb 19 11:20:56 2026
+| Host         : DESKTOP-LF2M9VA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_xlconcat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_xlconcat_0_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 4) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Feb 19 11:20:56 2026
+| Host         : DESKTOP-LF2M9VA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_v_tc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_v_tc_0_0 (xilinx.com:ip:v_tc:6.2) from (Rev. 2) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Feb 19 11:20:56 2026
+| Host         : DESKTOP-LF2M9VA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_v_axi4s_vid_out_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_v_axi4s_vid_out_0_0 (xilinx.com:ip:v_axi4s_vid_out:4.0) from (Rev. 12) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Feb 19 11:20:56 2026
+| Host         : DESKTOP-LF2M9VA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_util_vector_logic_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_util_vector_logic_1_0 (xilinx.com:ip:util_vector_logic:2.0) from (Rev. 1) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Feb 19 11:20:56 2026
+| Host         : DESKTOP-LF2M9VA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_rst_ps7_0_100M_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_rst_ps7_0_100M_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 13) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Feb 19 11:20:56 2026
+| Host         : DESKTOP-LF2M9VA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_ps7_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_ps7_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 25) to (Rev. 38)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Feb 19 11:20:56 2026
+| Host         : DESKTOP-LF2M9VA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_processing_system7_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_processing_system7_0_0 (xilinx.com:ip:processing_system7:5.5) from (Rev. 6) to (Rev. 8)
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_USE_AXI_NONSECURE with default value 0 : a parameter called PCW_USE_AXI_NONSECURE already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP0_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP0_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP1_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP1_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP0_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP1_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Feb 19 11:20:56 2026
+| Host         : DESKTOP-LF2M9VA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_clk_wiz_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_clk_wiz_0_0 (xilinx.com:ip:clk_wiz:6.0) from (Rev. 8) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Feb 19 11:20:56 2026
+| Host         : DESKTOP-LF2M9VA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axis_subset_converter_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_axis_subset_converter_0_0 (xilinx.com:ip:axis_subset_converter:1.1) from (Rev. 24) to (Rev. 36)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Feb 19 11:20:56 2026
+| Host         : DESKTOP-LF2M9VA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_vdma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_axi_vdma_0_0 (xilinx.com:ip:axi_vdma:6.3) from (Rev. 12) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Feb 19 11:20:56 2026
+| Host         : DESKTOP-LF2M9VA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_interconnect_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_axi_interconnect_0_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 25) to (Rev. 38)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Feb 19 11:20:56 2026
+| Host         : DESKTOP-LF2M9VA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_ethernet_1_dma_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_axi_ethernet_1_dma_0 (xilinx.com:ip:axi_dma:7.1) from (Rev. 25) to (Rev. 37)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Feb 19 11:20:56 2026
+| Host         : DESKTOP-LF2M9VA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_ethernet_1_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_axi_ethernet_1_0 from xilinx.com:ip:axi_ethernet:7.2 (Rev. 3) to xilinx.com:ip:axi_ethernet:8.0
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Upgrade messages
+-------------------
+
+Added parameter IS_GT_WIZ_OLD with value true (source 'default')
+Added parameter C_IS_GT_WIZ_OLD with value true (source 'default')
+
+3. Customization warnings
+-------------------------
+
+Upgrade target IP does not have parameter ID for 'C_IS_GT_WIZ_OLD'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:axi_ethernet:8.0 -user_name system_axi_ethernet_1_0
+set_property -dict "\
+  CONFIG.ClockSelection {Sync} \
+  CONFIG.Component_Name {system_axi_ethernet_1_0} \
+  CONFIG.DIFFCLK_BOARD_INTERFACE {Custom} \
+  CONFIG.ENABLE_AVB {false} \
+  CONFIG.ENABLE_LVDS {false} \
+  CONFIG.ETHERNET_BOARD_INTERFACE {Custom} \
+  CONFIG.EnableAsyncSGMII {false} \
+  CONFIG.Enable_1588 {false} \
+  CONFIG.Enable_1588_1step {false} \
+  CONFIG.Enable_Pfc {false} \
+  CONFIG.Frame_Filter {true} \
+  CONFIG.GTinEx {false} \
+  CONFIG.IS_GT_WIZ_OLD {true} \
+  CONFIG.Include_IO {true} \
+  CONFIG.InstantiateBitslice0 {false} \
+  CONFIG.MCAST_EXTEND {false} \
+  CONFIG.MDIO_BOARD_INTERFACE {Custom} \
+  CONFIG.Number_of_Table_Entries {4} \
+  CONFIG.PHYADDR {1} \
+  CONFIG.PHYRST_BOARD_INTERFACE {Custom} \
+  CONFIG.PHYRST_BOARD_INTERFACE_DUMMY_PORT {Custom} \
+  CONFIG.PHY_TYPE {RGMII} \
+  CONFIG.RXCSUM {None} \
+  CONFIG.RXMEM {4k} \
+  CONFIG.RXVLAN_STRP {false} \
+  CONFIG.RXVLAN_TAG {false} \
+  CONFIG.RXVLAN_TRAN {false} \
+  CONFIG.SIMULATION_MODE {false} \
+  CONFIG.Statistics_Counters {true} \
+  CONFIG.Statistics_Reset {false} \
+  CONFIG.Statistics_Width {64bit} \
+  CONFIG.SupportLevel {0} \
+  CONFIG.TIMER_CLK_PERIOD {4000} \
+  CONFIG.TXCSUM {None} \
+  CONFIG.TXMEM {4k} \
+  CONFIG.TXVLAN_STRP {false} \
+  CONFIG.TXVLAN_TAG {false} \
+  CONFIG.TXVLAN_TRAN {false} \
+  CONFIG.Timer_Format {0} \
+  CONFIG.TransceiverControl {false} \
+  CONFIG.USE_BOARD_FLOW {false} \
+  CONFIG.VERSAL_GT_BOARD_FLOW {0} \
+  CONFIG.axiliteclkrate {100.0} \
+  CONFIG.axisclkrate {100.0} \
+  CONFIG.drpclkrate {50.0} \
+  CONFIG.gt_type {GTH} \
+  CONFIG.gtlocation {X0Y0} \
+  CONFIG.gtrefclkrate {125} \
+  CONFIG.gtrefclksrc {clk0} \
+  CONFIG.lvdsclkrate {125} \
+  CONFIG.processor_mode {true} \
+  CONFIG.rxlane0_placement {DIFF_PAIR_0} \
+  CONFIG.rxlane1_placement {DIFF_PAIR_1} \
+  CONFIG.rxnibblebitslice0used {false} \
+  CONFIG.speed_1_2p5 {1G} \
+  CONFIG.tx_in_upper_nibble {true} \
+  CONFIG.txlane0_placement {DIFF_PAIR_0} \
+  CONFIG.txlane1_placement {DIFF_PAIR_1} " [get_ips system_axi_ethernet_1_0]
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Feb 19 11:20:56 2026
+| Host         : DESKTOP-LF2M9VA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_ethernet_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_axi_ethernet_0_0 from xilinx.com:ip:axi_ethernet:7.2 (Rev. 3) to xilinx.com:ip:axi_ethernet:8.0
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Upgrade messages
+-------------------
+
+Added parameter IS_GT_WIZ_OLD with value true (source 'default')
+Added parameter C_IS_GT_WIZ_OLD with value true (source 'default')
+
+3. Customization warnings
+-------------------------
+
+Upgrade target IP does not have parameter ID for 'C_IS_GT_WIZ_OLD'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:axi_ethernet:8.0 -user_name system_axi_ethernet_0_0
+set_property -dict "\
+  CONFIG.ClockSelection {Sync} \
+  CONFIG.Component_Name {system_axi_ethernet_0_0} \
+  CONFIG.DIFFCLK_BOARD_INTERFACE {Custom} \
+  CONFIG.ENABLE_AVB {false} \
+  CONFIG.ENABLE_LVDS {false} \
+  CONFIG.ETHERNET_BOARD_INTERFACE {Custom} \
+  CONFIG.EnableAsyncSGMII {false} \
+  CONFIG.Enable_1588 {false} \
+  CONFIG.Enable_1588_1step {false} \
+  CONFIG.Enable_Pfc {false} \
+  CONFIG.Frame_Filter {true} \
+  CONFIG.GTinEx {false} \
+  CONFIG.IS_GT_WIZ_OLD {true} \
+  CONFIG.Include_IO {true} \
+  CONFIG.InstantiateBitslice0 {false} \
+  CONFIG.MCAST_EXTEND {false} \
+  CONFIG.MDIO_BOARD_INTERFACE {Custom} \
+  CONFIG.Number_of_Table_Entries {4} \
+  CONFIG.PHYADDR {1} \
+  CONFIG.PHYRST_BOARD_INTERFACE {Custom} \
+  CONFIG.PHYRST_BOARD_INTERFACE_DUMMY_PORT {Custom} \
+  CONFIG.PHY_TYPE {RGMII} \
+  CONFIG.RXCSUM {None} \
+  CONFIG.RXMEM {4k} \
+  CONFIG.RXVLAN_STRP {false} \
+  CONFIG.RXVLAN_TAG {false} \
+  CONFIG.RXVLAN_TRAN {false} \
+  CONFIG.SIMULATION_MODE {false} \
+  CONFIG.Statistics_Counters {true} \
+  CONFIG.Statistics_Reset {false} \
+  CONFIG.Statistics_Width {64bit} \
+  CONFIG.SupportLevel {1} \
+  CONFIG.TIMER_CLK_PERIOD {4000} \
+  CONFIG.TXCSUM {None} \
+  CONFIG.TXMEM {4k} \
+  CONFIG.TXVLAN_STRP {false} \
+  CONFIG.TXVLAN_TAG {false} \
+  CONFIG.TXVLAN_TRAN {false} \
+  CONFIG.Timer_Format {0} \
+  CONFIG.TransceiverControl {false} \
+  CONFIG.USE_BOARD_FLOW {false} \
+  CONFIG.VERSAL_GT_BOARD_FLOW {0} \
+  CONFIG.axiliteclkrate {100.0} \
+  CONFIG.axisclkrate {100.0} \
+  CONFIG.drpclkrate {50.0} \
+  CONFIG.gt_type {GTH} \
+  CONFIG.gtlocation {X0Y0} \
+  CONFIG.gtrefclkrate {125} \
+  CONFIG.gtrefclksrc {clk0} \
+  CONFIG.lvdsclkrate {125} \
+  CONFIG.processor_mode {true} \
+  CONFIG.rxlane0_placement {DIFF_PAIR_0} \
+  CONFIG.rxlane1_placement {DIFF_PAIR_1} \
+  CONFIG.rxnibblebitslice0used {false} \
+  CONFIG.speed_1_2p5 {1G} \
+  CONFIG.tx_in_upper_nibble {true} \
+  CONFIG.txlane0_placement {DIFF_PAIR_0} \
+  CONFIG.txlane1_placement {DIFF_PAIR_1} " [get_ips system_axi_ethernet_0_0]
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Feb 19 11:20:56 2026
+| Host         : DESKTOP-LF2M9VA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_dma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_axi_dma_0_0 (xilinx.com:ip:axi_dma:7.1) from (Rev. 25) to (Rev. 37)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu May 29 18:10:54 2025
+| Host         : DESKTOP-MDCDJM3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_xlconcat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_xlconcat_0_0 (xilinx.com:ip:xlconcat:2.1 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu May 29 18:10:54 2025
+| Host         : DESKTOP-MDCDJM3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_v_tc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_v_tc_0_0 (xilinx.com:ip:v_tc:6.2 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu May 29 18:10:54 2025
+| Host         : DESKTOP-MDCDJM3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_v_axi4s_vid_out_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_v_axi4s_vid_out_0_0 (xilinx.com:ip:v_axi4s_vid_out:4.0 (Rev. 12)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu May 29 18:10:54 2025
+| Host         : DESKTOP-MDCDJM3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_util_vector_logic_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_util_vector_logic_1_0 (xilinx.com:ip:util_vector_logic:2.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu May 29 18:10:54 2025
+| Host         : DESKTOP-MDCDJM3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_uihdmitx_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_uihdmitx_0_0 (xilinx.com:user:uihdmitx:1.0 (Rev. 6)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu May 29 18:10:54 2025
+| Host         : DESKTOP-MDCDJM3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_rst_ps7_0_100M_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_rst_ps7_0_100M_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu May 29 18:10:54 2025
+| Host         : DESKTOP-MDCDJM3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_ps7_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_ps7_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1 (Rev. 25)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu May 29 18:10:54 2025
+| Host         : DESKTOP-MDCDJM3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_processing_system7_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_processing_system7_0_0 (xilinx.com:ip:processing_system7:5.5 (Rev. 6)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_USE_AXI_NONSECURE with default value 0 : a parameter called PCW_USE_AXI_NONSECURE already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP0_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP0_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP1_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP1_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP0_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP1_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu May 29 18:10:54 2025
+| Host         : DESKTOP-MDCDJM3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_clk_wiz_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_clk_wiz_0_0 (xilinx.com:ip:clk_wiz:6.0 (Rev. 8)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu May 29 18:10:54 2025
+| Host         : DESKTOP-MDCDJM3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axis_subset_converter_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_axis_subset_converter_0_0 (xilinx.com:ip:axis_subset_converter:1.1 (Rev. 24)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu May 29 18:10:54 2025
+| Host         : DESKTOP-MDCDJM3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_vdma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_axi_vdma_0_0 (xilinx.com:ip:axi_vdma:6.3 (Rev. 12)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu May 29 18:10:54 2025
+| Host         : DESKTOP-MDCDJM3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_interconnect_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_axi_interconnect_0_0 (xilinx.com:ip:axi_interconnect:2.1 (Rev. 25)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu May 29 18:10:54 2025
+| Host         : DESKTOP-MDCDJM3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_ethernet_1_dma_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_axi_ethernet_1_dma_0 (xilinx.com:ip:axi_dma:7.1 (Rev. 25)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu May 29 18:10:54 2025
+| Host         : DESKTOP-MDCDJM3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_ethernet_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_axi_ethernet_1_0 (xilinx.com:ip:axi_ethernet:7.2 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu May 29 18:10:54 2025
+| Host         : DESKTOP-MDCDJM3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_ethernet_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_axi_ethernet_0_0 (xilinx.com:ip:axi_ethernet:7.2 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu May 29 18:10:54 2025
+| Host         : DESKTOP-MDCDJM3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_dma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_axi_dma_0_0 (xilinx.com:ip:axi_dma:7.1 (Rev. 25)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Tue Aug  9 17:22:48 2022
+| Host         : 6QRKIFEZU6WKSG1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_xlconcat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_xlconcat_0_0 (xilinx.com:ip:xlconcat:2.1 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Tue Aug  9 17:22:48 2022
+| Host         : 6QRKIFEZU6WKSG1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_v_tc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_v_tc_0_0 (xilinx.com:ip:v_tc:6.2 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Tue Aug  9 17:22:48 2022
+| Host         : 6QRKIFEZU6WKSG1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_v_axi4s_vid_out_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_v_axi4s_vid_out_0_0 (xilinx.com:ip:v_axi4s_vid_out:4.0 (Rev. 12)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Tue Aug  9 17:22:48 2022
+| Host         : 6QRKIFEZU6WKSG1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_util_vector_logic_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_util_vector_logic_1_0 (xilinx.com:ip:util_vector_logic:2.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Tue Aug  9 17:22:48 2022
+| Host         : 6QRKIFEZU6WKSG1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_uihdmitx_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_uihdmitx_0_0 (xilinx.com:user:uihdmitx:1.0 (Rev. 6)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Tue Aug  9 17:22:48 2022
+| Host         : 6QRKIFEZU6WKSG1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_rst_ps7_0_100M_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_rst_ps7_0_100M_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Tue Aug  9 17:22:48 2022
+| Host         : 6QRKIFEZU6WKSG1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_ps7_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_ps7_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1 (Rev. 25)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Tue Aug  9 17:22:48 2022
+| Host         : 6QRKIFEZU6WKSG1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_processing_system7_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_processing_system7_0_0 (xilinx.com:ip:processing_system7:5.5 (Rev. 6)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_USE_AXI_NONSECURE with default value 0 : a parameter called PCW_USE_AXI_NONSECURE already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP0_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP0_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP1_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP1_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP0_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP1_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Tue Aug  9 17:22:48 2022
+| Host         : 6QRKIFEZU6WKSG1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_clk_wiz_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_clk_wiz_0_0 (xilinx.com:ip:clk_wiz:6.0 (Rev. 8)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Tue Aug  9 17:22:48 2022
+| Host         : 6QRKIFEZU6WKSG1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axis_subset_converter_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_axis_subset_converter_0_0 (xilinx.com:ip:axis_subset_converter:1.1 (Rev. 24)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Tue Aug  9 17:22:48 2022
+| Host         : 6QRKIFEZU6WKSG1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_vdma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_axi_vdma_0_0 (xilinx.com:ip:axi_vdma:6.3 (Rev. 12)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Tue Aug  9 17:22:48 2022
+| Host         : 6QRKIFEZU6WKSG1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_interconnect_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_axi_interconnect_0_0 (xilinx.com:ip:axi_interconnect:2.1 (Rev. 25)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Tue Aug  9 17:22:48 2022
+| Host         : 6QRKIFEZU6WKSG1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_ethernet_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_axi_ethernet_0_0 (xilinx.com:ip:axi_ethernet:7.2 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Tue Aug  9 17:22:48 2022
+| Host         : 6QRKIFEZU6WKSG1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_dma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_axi_dma_0_0 (xilinx.com:ip:axi_dma:7.1 (Rev. 25)) to Vivado generation flows.
+

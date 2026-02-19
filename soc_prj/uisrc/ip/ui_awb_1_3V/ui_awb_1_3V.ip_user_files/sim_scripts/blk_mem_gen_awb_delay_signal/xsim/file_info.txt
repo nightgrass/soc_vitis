@@ -1,0 +1,2 @@
+blk_mem_gen_awb_delay_signal.v,verilog,xil_defaultlib,../../../../awb_1_3.gen/sources_1/ip/blk_mem_gen_awb_delay_signal/sim/blk_mem_gen_awb_delay_signal.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

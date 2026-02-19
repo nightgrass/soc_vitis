@@ -1,0 +1,93 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Nov 18 13:56:14 2021
+# Process ID: 25784
+# Current directory: F:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24000 F:\7035FA\3_02_sdk_adv_app\15_ps2pl_img_fdma\read_sd_img_hdmi\soc_prj\uisrc\03_ip\uirgb32to24\project_1\project_1.xpr
+# Log file: F:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/project_1/vivado.log
+# Journal file: F:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/project_1/project_1.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'F:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/project_1'
+INFO: [Project 1-313] Project file moved from 'F:/MZU07A-EV/3_02_sdk_adv_app/14_photograph_fdma/9v034_sccb_hdmi/soc_prj/uisrc/03_ip/uirgb24to32/project_1' since last save.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'F:/zu07a-4gb/01_soc_base_7eg/40dp_for/02_dpdma_live/zu_prj/uisrc/03_ip/uidprgb24to36'.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'F:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/project_1/project_1.gen/sources_1', nor could it be found using path 'F:/MZU07A-EV/3_02_sdk_adv_app/14_photograph_fdma/9v034_sccb_hdmi/soc_prj/uisrc/03_ip/uirgb24to32/project_1/project_1.gen/sources_1'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'F:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/uirgb24to32.v', nor could it be found using path 'F:/MZU07A-EV/3_02_sdk_adv_app/14_photograph_fdma/9v034_sccb_hdmi/soc_prj/uisrc/03_ip/uirgb24to32/uirgb24to32.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb24to32'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'f:/zu07a-4gb/01_soc_base_7eg/40dp_for/02_dpdma_live/zu_prj/uisrc/03_ip/uidprgb24to36'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2021.1/data/ip'.
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files F:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/uirgb24to32.v] -no_script -reset -force -quiet
+remove_files  F:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/uirgb24to32.v
+add_files -norecurse F:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/uirgb32to24.v
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file {F:\7035FA\3_02_sdk_adv_app\15_ps2pl_img_fdma\read_sd_img_hdmi\soc_prj\uisrc\03_ip\uirgb32to24\component.xml}
+export_ip_user_files -of_objects  [get_files F:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/component.xml] -no_script -reset -force -quiet
+remove_files  F:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/component.xml
+ipx::package_project -root_dir f:/7035fa/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24 -vendor xilinx.com -library user -taxonomy /UserIP -force
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+ipx::current_core f:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/component.xml
+ipx::unload_core f:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/component.xml
+ipx::open_ipxact_file {f:\7035fa\3_02_sdk_adv_app\15_ps2pl_img_fdma\read_sd_img_hdmi\soc_prj\uisrc\03_ip\uirgb32to24\component.xml}
+export_ip_user_files -of_objects  [get_files f:/7035fa/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/component.xml] -no_script -reset -force -quiet
+remove_files  f:/7035fa/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/component.xml
+ipx::package_project -root_dir f:/7035fa/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24 -vendor xilinx.com -library user -taxonomy /UserIP -force
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+ipx::remove_file uirgb24to32.v [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::find_open_core xilinx.com:user:rgb24to32:1.0]]
+ipx::remove_file uirgb24to32.v [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::find_open_core xilinx.com:user:rgb24to32:1.0]]
+ipx::remove_file xgui/rgb24to32_v1_0.tcl [ipx::get_file_groups xilinx_xpgui -of_objects [ipx::find_open_core xilinx.com:user:rgb24to32:1.0]]
+ipx::package_project -root_dir f:/7035fa/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24 -vendor xilinx.com -library user -taxonomy /UserIP -force
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+export_ip_user_files -of_objects  [get_files f:/7035fa/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/component.xml] -no_script -reset -force -quiet
+remove_files  f:/7035fa/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/component.xml
+ipx::infer_core -vendor xilinx.com -library user -taxonomy /UserIP F:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+ipx::edit_ip_in_project -upgrade true -name edit_ip_project -directory F:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/project_1/project_1.tmp f:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'f:/7035fa/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/project_1/project_1.tmp'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2021.1/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb24to32'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'f:/zu07a-4gb/01_soc_base_7eg/40dp_for/02_dpdma_live/zu_prj/uisrc/03_ip/uidprgb24to36'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::current_core f:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/component.xml
+update_compile_order -fileset sources_1
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+WARNING: [IP_Flow 19-2991] No XGUI Files found 
+close_project -delete
+set_property  ip_repo_paths  {f:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24 f:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb24to32 f:/zu07a-4gb/01_soc_base_7eg/40dp_for/02_dpdma_live/zu_prj/uisrc/03_ip/uidprgb24to36} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'f:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'f:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb32to24/project_1'.)
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/7035FA/3_02_sdk_adv_app/15_ps2pl_img_fdma/read_sd_img_hdmi/soc_prj/uisrc/03_ip/uirgb24to32'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'f:/zu07a-4gb/01_soc_base_7eg/40dp_for/02_dpdma_live/zu_prj/uisrc/03_ip/uidprgb24to36'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 18 14:03:10 2021...

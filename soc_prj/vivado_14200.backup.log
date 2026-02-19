@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Jun 19 16:29:54 2025
+# Process ID: 14200
+# Current directory: H:/L2_7020/L2-7020/soc_prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13332 H:\L2_7020\L2-7020\soc_prj\soc_prj.xpr
+# Log file: H:/L2_7020/L2-7020/soc_prj/vivado.log
+# Journal file: H:/L2_7020/L2-7020/soc_prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/L2_7020/L2-7020/soc_prj/soc_prj.xpr
+INFO: [Project 1-313] Project file moved from 'D:/soc_prj' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/L2_7020/L2-7020/soc_prj/uisrc/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 1300.664 ; gain = 16.730
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 19 16:31:23 2025...

@@ -1,0 +1,554 @@
+
+*** Running vivado
+    with args -log bd_22c6_phy_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_22c6_phy_0.tcl
+
+
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Thu Feb 19 16:40:55 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source bd_22c6_phy_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 665.395 ; gain = 219.734
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:user:FDMA:1.0' found within IP repository 'g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj'.
+File in use: g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/uisrc/ip/uifdma/milianke_ip_uifdma/FDMA.xml
+File ignored: g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/uisrc/ip/uifdmadbuf/FDMA.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:user:FDMA_rtl:1.0' found within IP repository 'g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj'.
+File in use: g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/uisrc/ip/uifdma/milianke_ip_uifdma/FDMA_rtl.xml
+File ignored: g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/uisrc/ip/uifdmadbuf/FDMA_rtl.xml
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.runs/bd_22c6_phy_0_synth_1'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/2025.2/Vivado/data/ip'.
+Command: synth_design -top bd_22c6_phy_0 -part xc7z020clg484-2 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 47836
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1464.980 ; gain = 540.504
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'dl0_rxskewcalhs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:821]
+INFO: [Synth 8-11241] undeclared symbol 'dl1_rxskewcalhs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:858]
+INFO: [Synth 8-11241] undeclared symbol 'dl2_rxskewcalhs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:895]
+INFO: [Synth 8-11241] undeclared symbol 'dl3_rxskewcalhs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:931]
+INFO: [Synth 8-11241] undeclared symbol 'dl4_rxvalidhs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:973]
+INFO: [Synth 8-11241] undeclared symbol 'dl4_rxactivehs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:974]
+INFO: [Synth 8-11241] undeclared symbol 'dl4_rxsynchs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:976]
+INFO: [Synth 8-11241] undeclared symbol 'dl4_stopstate', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:981]
+INFO: [Synth 8-11241] undeclared symbol 'dl4_ulpsactivenot', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:983]
+INFO: [Synth 8-11241] undeclared symbol 'dl4_rxclkesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:987]
+INFO: [Synth 8-11241] undeclared symbol 'dl4_rxlpdtesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:988]
+INFO: [Synth 8-11241] undeclared symbol 'dl4_rxulpsesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:989]
+INFO: [Synth 8-11241] undeclared symbol 'dl4_rxvalidesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:992]
+INFO: [Synth 8-11241] undeclared symbol 'dl4_errsoths', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:996]
+INFO: [Synth 8-11241] undeclared symbol 'dl4_errsotsynchs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:997]
+INFO: [Synth 8-11241] undeclared symbol 'dl4_erresc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:998]
+INFO: [Synth 8-11241] undeclared symbol 'dl4_errsyncesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:999]
+INFO: [Synth 8-11241] undeclared symbol 'dl4_errcontrol', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1000]
+INFO: [Synth 8-11241] undeclared symbol 'dl5_rxvalidhs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1023]
+INFO: [Synth 8-11241] undeclared symbol 'dl5_rxactivehs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1024]
+INFO: [Synth 8-11241] undeclared symbol 'dl5_rxsynchs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1026]
+INFO: [Synth 8-11241] undeclared symbol 'dl5_stopstate', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1031]
+INFO: [Synth 8-11241] undeclared symbol 'dl5_ulpsactivenot', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1033]
+INFO: [Synth 8-11241] undeclared symbol 'dl5_rxclkesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1037]
+INFO: [Synth 8-11241] undeclared symbol 'dl5_rxlpdtesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1038]
+INFO: [Synth 8-11241] undeclared symbol 'dl5_rxulpsesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1039]
+INFO: [Synth 8-11241] undeclared symbol 'dl5_rxvalidesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1042]
+INFO: [Synth 8-11241] undeclared symbol 'dl5_errsoths', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1046]
+INFO: [Synth 8-11241] undeclared symbol 'dl5_errsotsynchs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1047]
+INFO: [Synth 8-11241] undeclared symbol 'dl5_erresc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1048]
+INFO: [Synth 8-11241] undeclared symbol 'dl5_errsyncesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1049]
+INFO: [Synth 8-11241] undeclared symbol 'dl5_errcontrol', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1050]
+INFO: [Synth 8-11241] undeclared symbol 'dl6_rxvalidhs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1072]
+INFO: [Synth 8-11241] undeclared symbol 'dl6_rxactivehs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1073]
+INFO: [Synth 8-11241] undeclared symbol 'dl6_rxsynchs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1075]
+INFO: [Synth 8-11241] undeclared symbol 'dl6_stopstate', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1080]
+INFO: [Synth 8-11241] undeclared symbol 'dl6_ulpsactivenot', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1082]
+INFO: [Synth 8-11241] undeclared symbol 'dl6_rxclkesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1086]
+INFO: [Synth 8-11241] undeclared symbol 'dl6_rxlpdtesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1087]
+INFO: [Synth 8-11241] undeclared symbol 'dl6_rxulpsesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1088]
+INFO: [Synth 8-11241] undeclared symbol 'dl6_rxvalidesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1091]
+INFO: [Synth 8-11241] undeclared symbol 'dl6_errsoths', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1095]
+INFO: [Synth 8-11241] undeclared symbol 'dl6_errsotsynchs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1096]
+INFO: [Synth 8-11241] undeclared symbol 'dl6_erresc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1097]
+INFO: [Synth 8-11241] undeclared symbol 'dl6_errsyncesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1098]
+INFO: [Synth 8-11241] undeclared symbol 'dl6_errcontrol', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1099]
+INFO: [Synth 8-11241] undeclared symbol 'dl7_rxvalidhs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1121]
+INFO: [Synth 8-11241] undeclared symbol 'dl7_rxactivehs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1122]
+INFO: [Synth 8-11241] undeclared symbol 'dl7_rxsynchs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1124]
+INFO: [Synth 8-11241] undeclared symbol 'dl7_stopstate', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1129]
+INFO: [Synth 8-11241] undeclared symbol 'dl7_ulpsactivenot', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1131]
+INFO: [Synth 8-11241] undeclared symbol 'dl7_rxclkesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1135]
+INFO: [Synth 8-11241] undeclared symbol 'dl7_rxlpdtesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1136]
+INFO: [Synth 8-11241] undeclared symbol 'dl7_rxulpsesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1137]
+INFO: [Synth 8-11241] undeclared symbol 'dl7_rxvalidesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1140]
+INFO: [Synth 8-11241] undeclared symbol 'dl7_errsoths', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1144]
+INFO: [Synth 8-11241] undeclared symbol 'dl7_errsotsynchs', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1145]
+INFO: [Synth 8-11241] undeclared symbol 'dl7_erresc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1146]
+INFO: [Synth 8-11241] undeclared symbol 'dl7_errsyncesc', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1147]
+INFO: [Synth 8-11241] undeclared symbol 'dl7_errcontrol', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1148]
+INFO: [Synth 8-11241] undeclared symbol 's_axi_awready', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1173]
+INFO: [Synth 8-11241] undeclared symbol 's_axi_arready', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1176]
+INFO: [Synth 8-11241] undeclared symbol 's_axi_wready', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1180]
+INFO: [Synth 8-11241] undeclared symbol 's_axi_rvalid', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1185]
+INFO: [Synth 8-11241] undeclared symbol 's_axi_bvalid', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1188]
+INFO: [Synth 8-11241] undeclared symbol 'w_dlyctrl_rdy_out', assumed default net type 'wire' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1233]
+INFO: [Synth 8-6157] synthesizing module 'bd_22c6_phy_0' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0.v:90]
+INFO: [Synth 8-6157] synthesizing module 'bd_22c6_phy_0_core' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0_core.v:92]
+INFO: [Synth 8-6157] synthesizing module 'bd_22c6_phy_0_c1' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0_c1.v:98]
+INFO: [Synth 8-6157] synthesizing module 'bd_22c6_phy_0_support' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:101]
+INFO: [Synth 8-7071] port 'lane0_tap' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'lane1_tap' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'lane2_tap' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'lane3_tap' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'lane4_tap' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'lane5_tap' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'lane6_tap' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'lane7_tap' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'alt_skew_calb' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'init_periodic_skew_calb' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_valid_l0' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_rd_data_l0' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_addr_l0' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_wr_data_l0' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_wr_en_l0' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_nibble_sel_l0' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'calib_status_l0' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_valid_l1' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_rd_data_l1' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_addr_l1' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_wr_data_l1' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_wr_en_l1' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_nibble_sel_l1' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'calib_status_l1' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_valid_l2' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_rd_data_l2' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_addr_l2' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_wr_data_l2' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_wr_en_l2' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_nibble_sel_l2' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'calib_status_l2' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_valid_l3' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_rd_data_l3' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_addr_l3' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_wr_data_l3' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_wr_en_l3' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'riu_nibble_sel_l3' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7071] port 'calib_status_l3' of module 'mipi_dphy_v4_3_17_rx_fab_top' is unconnected for instance 'dphy_rx_fab_top' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-7023] instance 'dphy_rx_fab_top' of module 'mipi_dphy_v4_3_17_rx_fab_top' has 320 connections declared, but only 282 given [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:768]
+INFO: [Synth 8-6157] synthesizing module 'IBUFDS' [D:/Xilinx/2025.2/Vivado/scripts/rt/data/unisim_comp.v:82819]
+INFO: [Synth 8-6155] done synthesizing module 'IBUFDS' (0#1) [D:/Xilinx/2025.2/Vivado/scripts/rt/data/unisim_comp.v:82819]
+INFO: [Synth 8-6157] synthesizing module 'ISERDESE2' [D:/Xilinx/2025.2/Vivado/scripts/rt/data/unisim_comp.v:90334]
+INFO: [Synth 8-6155] done synthesizing module 'ISERDESE2' (0#1) [D:/Xilinx/2025.2/Vivado/scripts/rt/data/unisim_comp.v:90334]
+INFO: [Synth 8-6157] synthesizing module 'BUFIO' [D:/Xilinx/2025.2/Vivado/scripts/rt/data/unisim_comp.v:2951]
+INFO: [Synth 8-6155] done synthesizing module 'BUFIO' (0#1) [D:/Xilinx/2025.2/Vivado/scripts/rt/data/unisim_comp.v:2951]
+INFO: [Synth 8-6157] synthesizing module 'BUFR' [D:/Xilinx/2025.2/Vivado/scripts/rt/data/unisim_comp.v:3017]
+INFO: [Synth 8-6155] done synthesizing module 'BUFR' (0#1) [D:/Xilinx/2025.2/Vivado/scripts/rt/data/unisim_comp.v:3017]
+INFO: [Synth 8-7071] port 'dlyctrl_rdy_in' of module 'mipi_dphy_v4_3_17_rx_ioi_7series' is unconnected for instance 'bd_22c6_phy_0_rx_ioi_i' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1216]
+INFO: [Synth 8-7071] port 'idelay_tap_dyn_val_out' of module 'mipi_dphy_v4_3_17_rx_ioi_7series' is unconnected for instance 'bd_22c6_phy_0_rx_ioi_i' [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1216]
+INFO: [Synth 8-7023] instance 'bd_22c6_phy_0_rx_ioi_i' of module 'mipi_dphy_v4_3_17_rx_ioi_7series' has 20 connections declared, but only 18 given [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:1216]
+INFO: [Synth 8-6155] done synthesizing module 'bd_22c6_phy_0_support' (0#1) [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:101]
+INFO: [Synth 8-6155] done synthesizing module 'bd_22c6_phy_0_c1' (0#1) [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0_c1.v:98]
+INFO: [Synth 8-6155] done synthesizing module 'bd_22c6_phy_0_core' (0#1) [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0_core.v:92]
+INFO: [Synth 8-6155] done synthesizing module 'bd_22c6_phy_0' (0#1) [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0.v:90]
+INFO: [Synth 8-3848] Net rx_dl4_lp_dp_w in module/entity bd_22c6_phy_0_support does not have driver. [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:532]
+INFO: [Synth 8-3848] Net rx_dl4_lp_dn_w in module/entity bd_22c6_phy_0_support does not have driver. [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:533]
+INFO: [Synth 8-3848] Net rx_dl4_hs_dp_w in module/entity bd_22c6_phy_0_support does not have driver. [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:535]
+INFO: [Synth 8-3848] Net rx_dl5_lp_dp_w in module/entity bd_22c6_phy_0_support does not have driver. [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:547]
+INFO: [Synth 8-3848] Net rx_dl5_lp_dn_w in module/entity bd_22c6_phy_0_support does not have driver. [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:548]
+INFO: [Synth 8-3848] Net rx_dl5_hs_dp_w in module/entity bd_22c6_phy_0_support does not have driver. [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:550]
+INFO: [Synth 8-3848] Net rx_dl6_lp_dp_w in module/entity bd_22c6_phy_0_support does not have driver. [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:562]
+INFO: [Synth 8-3848] Net rx_dl6_lp_dn_w in module/entity bd_22c6_phy_0_support does not have driver. [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:563]
+INFO: [Synth 8-3848] Net rx_dl6_hs_dp_w in module/entity bd_22c6_phy_0_support does not have driver. [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:565]
+INFO: [Synth 8-3848] Net rx_dl7_lp_dp_w in module/entity bd_22c6_phy_0_support does not have driver. [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:577]
+INFO: [Synth 8-3848] Net rx_dl7_lp_dn_w in module/entity bd_22c6_phy_0_support does not have driver. [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:578]
+INFO: [Synth 8-3848] Net rx_dl7_hs_dp_w in module/entity bd_22c6_phy_0_support does not have driver. [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0/support/bd_22c6_phy_0_support.v:580]
+INFO: [Synth 8-7129] Port io_reset in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port rx_clk_active in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port cal_start in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port dlyctrl_rdy_in in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_val_pass_in[7] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_val_pass_in[6] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_val_pass_in[5] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_val_pass_in[4] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_val_pass_in[3] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_val_pass_in[2] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_val_pass_in[1] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_val_pass_in[0] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[63] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[62] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[61] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[60] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[59] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[58] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[57] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[56] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[55] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[54] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[53] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[52] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[51] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[50] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[49] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[48] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[47] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[46] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[45] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[44] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[43] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[42] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[41] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[40] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[39] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[38] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[37] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[36] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[35] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[34] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[33] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[32] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[31] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[30] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[29] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[28] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[27] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[26] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[25] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[24] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[23] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[22] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[21] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[20] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[19] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[18] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[17] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[16] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[15] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[14] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[13] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[12] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[11] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[10] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[9] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[8] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[7] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[6] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[5] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[4] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[3] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[2] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[1] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port tap_ioi_dyn[0] in module mipi_dphy_v4_3_17_rx_ioi_7series is either unconnected or has no load
+INFO: [Synth 8-7129] Port prmry_aclk in module mipi_dphy_v4_3_17_rx_sync_cell__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port prmry_rst_n in module mipi_dphy_v4_3_17_rx_sync_cell__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port prmry_vect_in[1] in module mipi_dphy_v4_3_17_rx_sync_cell__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port prmry_vect_in[0] in module mipi_dphy_v4_3_17_rx_sync_cell__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port scndry_rst_n in module mipi_dphy_v4_3_17_rx_sync_cell__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port prmry_aclk in module mipi_dphy_v4_3_17_rx_sync_cell__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port prmry_rst_n in module mipi_dphy_v4_3_17_rx_sync_cell__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port prmry_vect_in[1] in module mipi_dphy_v4_3_17_rx_sync_cell__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port prmry_vect_in[0] in module mipi_dphy_v4_3_17_rx_sync_cell__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port prmry_aclk in module mipi_dphy_v4_3_17_rx_sync_cell__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port prmry_rst_n in module mipi_dphy_v4_3_17_rx_sync_cell__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port prmry_vect_in[1] in module mipi_dphy_v4_3_17_rx_sync_cell__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port prmry_vect_in[0] in module mipi_dphy_v4_3_17_rx_sync_cell__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port prmry_aclk in module mipi_dphy_v4_3_17_rx_sync_cell__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port prmry_rst_n in module mipi_dphy_v4_3_17_rx_sync_cell__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port prmry_vect_in[1] in module mipi_dphy_v4_3_17_rx_sync_cell__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port prmry_vect_in[0] in module mipi_dphy_v4_3_17_rx_sync_cell__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port scndry_rst_n in module mipi_dphy_v4_3_17_rx_sync_cell__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port init_done_div4clk in module mipi_dphy_v4_3_17_csi_rx_data_lane_sm is either unconnected or has no load
+INFO: [Synth 8-7129] Port dl_enable in module mipi_dphy_v4_3_17_csi_rx_data_lane_sm is either unconnected or has no load
+INFO: [Synth 8-7129] Port init_reg[31] in module mipi_dphy_v4_3_17_csi_rx_data_lane_sm is either unconnected or has no load
+INFO: [Synth 8-7129] Port init_reg[30] in module mipi_dphy_v4_3_17_csi_rx_data_lane_sm is either unconnected or has no load
+INFO: [Synth 8-7129] Port init_reg[29] in module mipi_dphy_v4_3_17_csi_rx_data_lane_sm is either unconnected or has no load
+INFO: [Synth 8-7129] Port init_reg[28] in module mipi_dphy_v4_3_17_csi_rx_data_lane_sm is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1619.922 ; gain = 695.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1619.922 ; gain = 695.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1619.922 ; gain = 695.445
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 1619.922 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0.xdc] for cell 'inst'
+Finished Parsing XDC File [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0.xdc] for cell 'inst'
+Parsing XDC File [G:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.runs/bd_22c6_phy_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [G:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.runs/bd_22c6_phy_0_synth_1/dont_touch.xdc]
+Parsing XDC File [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0_clocks.xdc] for cell 'inst'
+Finished Parsing XDC File [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0_clocks.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [g:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_22c6_phy_0_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/bd_22c6_phy_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/bd_22c6_phy_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1666.375 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.077 . Memory (MB): peak = 1666.402 ; gain = 0.027
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1666.402 ; gain = 741.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1666.402 ; gain = 741.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1666.402 ; gain = 741.926
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'rst_blk_state_reg' in module 'mipi_dphy_v4_3_17_rx_rst_logic_7series'
+INFO: [Synth 8-802] inferred FSM for state register 'dl_rx_state_reg' in module 'mipi_dphy_v4_3_17_csi_rx_data_lane_sm'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_hs_high_rates_spec_v1_1.dl_state_reg' in module 'mipi_dphy_v4_3_17_rx_data_lane'
+INFO: [Synth 8-802] inferred FSM for state register 'rst_blk_state_reg' in module 'mipi_dphy_v4_3_17_rx_support_rst_logic'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               RST_BEGIN |                               00 |                               00
+          RESET_FSM_DONE |                               01 |                               10
+         WAIT_FOR_ENABLE |                               10 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rst_blk_state_reg' using encoding 'sequential' in module 'mipi_dphy_v4_3_17_rx_rst_logic_7series'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             DL_RX_BEGIN |                             0000 |                             0000
+        DL_WO_INIT_LP_11 |                             0001 |                             0001
+         DL_RX_INIT_DONE |                             0010 |                             0010
+              DL_RX_STOP |                             0011 |                             0011
+           DL_RX_HS_RQST |                             0100 |                             0100
+           DL_RX_HS_TERM |                             0101 |                             0101
+           DL_RX_HS_SYNC |                             0110 |                             0110
+            DL_RX_HS_RUN |                             0111 |                             0111
+          DL_RX_HS_ABORT |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'dl_rx_state_reg' using encoding 'sequential' in module 'mipi_dphy_v4_3_17_csi_rx_data_lane_sm'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                DL_START |                               00 |                               00
+                 DL_STOP |                               01 |                               01
+               DL_ACTIVE |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_hs_high_rates_spec_v1_1.dl_state_reg' using encoding 'sequential' in module 'mipi_dphy_v4_3_17_rx_data_lane'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               RST_BEGIN |                              000 |                              000
+       ASSERT_ALL_RESETS |                              001 |                              001
+       RELEASE_PHY_RESET |                              010 |                              010
+          RESET_FSM_DONE |                              011 |                              100
+              CHECK_SRST |                              100 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rst_blk_state_reg' using encoding 'sequential' in module 'mipi_dphy_v4_3_17_rx_support_rst_logic'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1666.402 ; gain = 741.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   15 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 8     
+	   2 Input    5 Bit       Adders := 9     
+	   2 Input    4 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 8     
+	               16 Bit    Registers := 4     
+	               15 Bit    Registers := 1     
+	                8 Bit    Registers := 20    
+	                5 Bit    Registers := 10    
+	                4 Bit    Registers := 6     
+	                3 Bit    Registers := 5     
+	                2 Bit    Registers := 9     
+	                1 Bit    Registers := 340   
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 8     
+	   2 Input   15 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 9     
+	  18 Input    4 Bit        Muxes := 4     
+	   2 Input    4 Bit        Muxes := 1     
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 5     
+	   6 Input    3 Bit        Muxes := 4     
+	  12 Input    3 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 5     
+	   2 Input    2 Bit        Muxes := 14    
+	   3 Input    1 Bit        Muxes := 25    
+	   2 Input    1 Bit        Muxes := 190   
+	   9 Input    1 Bit        Muxes := 45    
+	   8 Input    1 Bit        Muxes := 3     
+	   5 Input    1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1669.250 ; gain = 744.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1808.312 ; gain = 883.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1841.277 ; gain = 916.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1844.754 ; gain = 920.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 2066.805 ; gain = 1142.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 2066.805 ; gain = 1142.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 2066.805 ; gain = 1142.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 2066.805 ; gain = 1142.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 2066.805 ; gain = 1142.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 2066.805 ; gain = 1142.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFIO     |     1|
+|2     |BUFR      |     1|
+|3     |CARRY4    |    22|
+|4     |ISERDESE2 |     4|
+|5     |LUT1      |   591|
+|6     |LUT2      |    71|
+|7     |LUT3      |   140|
+|8     |LUT4      |    70|
+|9     |LUT5      |   165|
+|10    |LUT6      |   377|
+|11    |MUXF7     |     8|
+|12    |FDCE      |    63|
+|13    |FDPE      |     5|
+|14    |FDRE      |   659|
+|15    |IBUFDS    |     5|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 2066.805 ; gain = 1142.328
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:38 . Memory (MB): peak = 2066.805 ; gain = 1095.848
+Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 2066.805 ; gain = 1142.328
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 2066.805 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 40 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 4 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2079.641 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: e9fb9fd8
+INFO: [Common 17-83] Releasing license: Synthesis
+267 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:47 . Memory (MB): peak = 2079.641 ; gain = 1396.219
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2079.641 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'G:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.runs/bd_22c6_phy_0_synth_1/bd_22c6_phy_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_22c6_phy_0, cache-ID = d6d2316cce17c85c
+INFO: [Coretcl 2-1174] Renamed 53 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2079.641 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'G:/proj/fpga/zynq7020_mlk2/proj/linux_QT/QT/project/soc_prj/soc_prj.runs/bd_22c6_phy_0_synth_1/bd_22c6_phy_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file bd_22c6_phy_0_utilization_synth.rpt -pb bd_22c6_phy_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 19 16:42:00 2026...

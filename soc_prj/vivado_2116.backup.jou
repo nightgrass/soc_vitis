@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Aug 15 11:19:28 2022
+# Process ID: 2116
+# Current directory: C:/Users/Glados/Desktop/share/soc_prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9656 C:\Users\Glados\Desktop\share\soc_prj\soc_prj.xpr
+# Log file: C:/Users/Glados/Desktop/share/soc_prj/vivado.log
+# Journal file: C:/Users/Glados/Desktop/share/soc_prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Glados/Desktop/share/soc_prj/soc_prj.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/Glados/Desktop/share/soc_prj/soc_prj.srcs/sources_1/bd/system/system.bd}
+regenerate_bd_layout
+write_bd_tcl -force C:/Users/Glados/Desktop/share/soc_tcl/system.tcl

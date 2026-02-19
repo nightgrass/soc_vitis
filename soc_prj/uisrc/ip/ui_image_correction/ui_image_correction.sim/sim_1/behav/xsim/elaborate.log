@@ -1,0 +1,19 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 6876e28f65e44bedbb3446b8c585087b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot picture_tb_behav xil_defaultlib.picture_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/vlkus/test/test13/imx334/A/fpga_prj/uisrc/03_ip/image correction/uisrc/01_rtl/image_correction.v" Line 19. Module image_correction(DATA_WIDTH=96,IMG_H=155) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/vlkus/test/test13/imx334/A/fpga_prj/uisrc/03_ip/image correction/uisrc/01_rtl/image_correction.v" Line 19. Module image_correction(DATA_WIDTH=96,IMG_H=155) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.image_correction(DATA_WIDTH=96,I...
+Compiling module xil_defaultlib.picture_tb
+WARNING: [XSIM 43-3373] "E:/vlkus/test/test13/imx334/A/fpga_prj/uisrc/03_ip/image correction/uisrc/02_sim/picture_tb.v" Line 154. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+WARNING: [XSIM 43-3373] "E:/vlkus/test/test13/imx334/A/fpga_prj/uisrc/03_ip/image correction/uisrc/02_sim/picture_tb.v" Line 213. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+WARNING: [XSIM 43-3373] "E:/vlkus/test/test13/imx334/A/fpga_prj/uisrc/03_ip/image correction/uisrc/02_sim/picture_tb.v" Line 339. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot picture_tb_behav

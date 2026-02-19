@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Aug 28 16:11:45 2025
+# Process ID: 1574936
+# Current directory: I:/ISP_1x/ISP_4x/ui_awb_1_3V/ui_awb_1_3V.runs/synth_1
+# Command line: vivado.exe -log awb.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source awb.tcl
+# Log file: I:/ISP_1x/ISP_4x/ui_awb_1_3V/ui_awb_1_3V.runs/synth_1/awb.vds
+# Journal file: I:/ISP_1x/ISP_4x/ui_awb_1_3V/ui_awb_1_3V.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source awb.tcl -notrace

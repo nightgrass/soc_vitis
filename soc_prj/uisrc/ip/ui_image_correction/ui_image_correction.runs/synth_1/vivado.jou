@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Aug 28 17:03:22 2025
+# Process ID: 1586092
+# Current directory: I:/ISP_1x/ISP_4x/ui_image_correction/ui_image_correction.runs/synth_1
+# Command line: vivado.exe -log image_correction.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source image_correction.tcl
+# Log file: I:/ISP_1x/ISP_4x/ui_image_correction/ui_image_correction.runs/synth_1/image_correction.vds
+# Journal file: I:/ISP_1x/ISP_4x/ui_image_correction/ui_image_correction.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source image_correction.tcl -notrace

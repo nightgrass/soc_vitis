@@ -1,0 +1,347 @@
+
+*** Running vivado
+    with args -log bd_4bad_c_counter_binary_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_4bad_c_counter_binary_0_0.tcl
+
+
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Thu Feb 19 11:21:52 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source bd_4bad_c_counter_binary_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 665.359 ; gain = 222.418
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/proj/fpga/zynq7020_mlk2/proj/06_ex_linux_QT_Drive_L2_7020/QT_Drive_Appendix/project/soc_prj/uisrc/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/2025.2/Vivado/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is g:/proj/fpga/zynq7020_mlk2/proj/06_ex_linux_QT_Drive_L2_7020/QT_Drive_Appendix/project/soc_prj/soc_prj.cache/ip 
+Command: synth_design -top bd_4bad_c_counter_binary_0_0 -part xc7z020clg484-2 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 4872
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1449.621 ; gain = 540.746
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'bd_4bad_c_counter_binary_0_0' [g:/proj/fpga/zynq7020_mlk2/proj/06_ex_linux_QT_Drive_L2_7020/QT_Drive_Appendix/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/ip/ip_3/synth/bd_4bad_c_counter_binary_0_0.vhd:68]
+	Parameter C_IMPLEMENTATION bound to: 0 - type: integer 
+	Parameter C_VERBOSITY bound to: 0 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_WIDTH bound to: 24 - type: integer 
+	Parameter C_HAS_CE bound to: 0 - type: integer 
+	Parameter C_HAS_SCLR bound to: 1 - type: integer 
+	Parameter C_RESTRICT_COUNT bound to: 1 - type: integer 
+	Parameter C_COUNT_TO bound to: 1100000000000000000000 - type: string 
+	Parameter C_COUNT_BY bound to: 1 - type: string 
+	Parameter C_COUNT_MODE bound to: 0 - type: integer 
+	Parameter C_THRESH0_VALUE bound to: 1100000000000000000000 - type: string 
+	Parameter C_CE_OVERRIDES_SYNC bound to: 0 - type: integer 
+	Parameter C_HAS_THRESH0 bound to: 1 - type: integer 
+	Parameter C_HAS_LOAD bound to: 0 - type: integer 
+	Parameter C_LOAD_LOW bound to: 0 - type: integer 
+	Parameter C_LATENCY bound to: 1 - type: integer 
+	Parameter C_FB_LATENCY bound to: 0 - type: integer 
+	Parameter C_AINIT_VAL bound to: 0 - type: string 
+	Parameter C_SINIT_VAL bound to: 0 - type: string 
+	Parameter C_SCLR_OVERRIDES_SSET bound to: 1 - type: integer 
+	Parameter C_HAS_SSET bound to: 0 - type: integer 
+	Parameter C_HAS_SINIT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'c_counter_binary_v12_0_22' declared at 'g:/proj/fpga/zynq7020_mlk2/proj/06_ex_linux_QT_Drive_L2_7020/QT_Drive_Appendix/project/soc_prj/soc_prj.gen/sources_1/bd/system/ipshared/782b/hdl/c_counter_binary_v12_0_vh_rfs.vhd:4289' bound to instance 'U0' of component 'c_counter_binary_v12_0_22' [g:/proj/fpga/zynq7020_mlk2/proj/06_ex_linux_QT_Drive_L2_7020/QT_Drive_Appendix/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/ip/ip_3/synth/bd_4bad_c_counter_binary_0_0.vhd:133]
+INFO: [Synth 8-256] done synthesizing module 'bd_4bad_c_counter_binary_0_0' (0#1) [g:/proj/fpga/zynq7020_mlk2/proj/06_ex_linux_QT_Drive_L2_7020/QT_Drive_Appendix/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/ip/ip_3/synth/bd_4bad_c_counter_binary_0_0.vhd:68]
+INFO: [Synth 8-7129] Port CE in module c_reg_fd_v12_0_11_viv is either unconnected or has no load
+INFO: [Synth 8-7129] Port AINIT in module c_reg_fd_v12_0_11_viv is either unconnected or has no load
+INFO: [Synth 8-7129] Port ACLR in module c_reg_fd_v12_0_11_viv is either unconnected or has no load
+INFO: [Synth 8-7129] Port ASET in module c_reg_fd_v12_0_11_viv is either unconnected or has no load
+INFO: [Synth 8-7129] Port SINIT in module c_reg_fd_v12_0_11_viv is either unconnected or has no load
+INFO: [Synth 8-7129] Port SSET in module c_reg_fd_v12_0_11_viv is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[23] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[22] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[21] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[20] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[19] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[18] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[17] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[16] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[15] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[14] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[13] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[12] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[11] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[10] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[9] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[8] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[7] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[6] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[5] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[4] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[3] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[2] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[1] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b[0] in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port add in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port c_in in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port ce in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port bypass in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port sset in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port sinit in module c_addsub_v12_0_21_lut6_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port c_in in module c_addsub_v12_0_21_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b_in in module c_addsub_v12_0_21_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port a_signed in module c_addsub_v12_0_21_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port b_signed in module c_addsub_v12_0_21_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port up in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port ce in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port load in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[23] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[22] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[21] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[20] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[19] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[18] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[17] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[16] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[15] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[14] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[13] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[12] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[11] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[10] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[9] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[8] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[7] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[6] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[5] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[4] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[3] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[2] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[1] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port l[0] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[23] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[22] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[21] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[20] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[19] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[18] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[17] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[16] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[15] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[14] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[13] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[12] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[11] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[10] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[9] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[8] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[7] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[6] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[5] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[4] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[3] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[2] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[1] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port iv[0] in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port sset in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+INFO: [Synth 8-7129] Port sinit in module c_counter_binary_v12_0_22_legacy is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1599.707 ; gain = 690.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1599.707 ; gain = 690.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1599.707 ; gain = 690.832
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1599.707 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 47 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [g:/proj/fpga/zynq7020_mlk2/proj/06_ex_linux_QT_Drive_L2_7020/QT_Drive_Appendix/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/ip/ip_3/bd_4bad_c_counter_binary_0_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [g:/proj/fpga/zynq7020_mlk2/proj/06_ex_linux_QT_Drive_L2_7020/QT_Drive_Appendix/project/soc_prj/soc_prj.gen/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/ip/ip_3/bd_4bad_c_counter_binary_0_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [G:/proj/fpga/zynq7020_mlk2/proj/06_ex_linux_QT_Drive_L2_7020/QT_Drive_Appendix/project/soc_prj/soc_prj.runs/bd_4bad_c_counter_binary_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [G:/proj/fpga/zynq7020_mlk2/proj/06_ex_linux_QT_Drive_L2_7020/QT_Drive_Appendix/project/soc_prj/soc_prj.runs/bd_4bad_c_counter_binary_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1599.707 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1602.793 ; gain = 3.086
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1602.793 ; gain = 693.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1602.793 ; gain = 693.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1602.793 ; gain = 693.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1602.793 ; gain = 693.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7129] Port CE in module c_counter_binary_v12_0_22_viv is either unconnected or has no load
+INFO: [Synth 8-7129] Port SSET in module c_counter_binary_v12_0_22_viv is either unconnected or has no load
+INFO: [Synth 8-7129] Port SINIT in module c_counter_binary_v12_0_22_viv is either unconnected or has no load
+INFO: [Synth 8-7129] Port UP in module c_counter_binary_v12_0_22_viv is either unconnected or has no load
+INFO: [Synth 8-7129] Port LOAD in module c_counter_binary_v12_0_22_viv is either unconnected or has no load
+INFO: [Synth 8-7129] Port L[23] in module c_counter_binary_v12_0_22_viv is either unconnected or has no load
+INFO: [Synth 8-7129] Port L[22] in module c_counter_binary_v12_0_22_viv is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1632.109 ; gain = 723.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 1775.633 ; gain = 866.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 1795.367 ; gain = 886.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1796.156 ; gain = 887.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 2035.609 ; gain = 1126.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 2035.609 ; gain = 1126.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 2035.609 ; gain = 1126.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 2035.609 ; gain = 1126.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 2035.609 ; gain = 1126.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 2035.609 ; gain = 1126.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     1|
+|2     |LUT3  |     1|
+|3     |LUT5  |     1|
+|4     |LUT6  |     4|
+|5     |MUXCY |    23|
+|6     |XORCY |    24|
+|7     |FDRE  |    25|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 2035.609 ; gain = 1126.734
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 2035.609 ; gain = 1123.648
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 2035.609 ; gain = 1126.734
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2035.609 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 47 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2048.359 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 6 instances
+
+Synth Design complete | Checksum: 340f36aa
+INFO: [Common 17-83] Releasing license: Synthesis
+124 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 2048.359 ; gain = 1367.031
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2048.359 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'G:/proj/fpga/zynq7020_mlk2/proj/06_ex_linux_QT_Drive_L2_7020/QT_Drive_Appendix/project/soc_prj/soc_prj.runs/bd_4bad_c_counter_binary_0_0_synth_1/bd_4bad_c_counter_binary_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_4bad_c_counter_binary_0_0, cache-ID = 8f8c89e845a49b8b
+INFO: [Coretcl 2-1174] Renamed 7 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2048.359 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'G:/proj/fpga/zynq7020_mlk2/proj/06_ex_linux_QT_Drive_L2_7020/QT_Drive_Appendix/project/soc_prj/soc_prj.runs/bd_4bad_c_counter_binary_0_0_synth_1/bd_4bad_c_counter_binary_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file bd_4bad_c_counter_binary_0_0_utilization_synth.rpt -pb bd_4bad_c_counter_binary_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 19 11:22:46 2026...

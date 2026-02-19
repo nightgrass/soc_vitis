@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Aug 16 16:38:45 2022
+# Process ID: 15140
+# Current directory: E:/backup/driver_06.13/7XB702/01_Linux基础入门/附件/第四章/soc_prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12260 E:\backup\driver_06.13\7XB702\01_Linux基础入门\附件\第四章\soc_prj\soc_prj.xpr
+# Log file: E:/backup/driver_06.13/7XB702/01_Linux基础入门/附件/第四章/soc_prj/vivado.log
+# Journal file: E:/backup/driver_06.13/7XB702/01_Linux基础入门/附件/第四章/soc_prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/backup/driver_06.13/7XB702/01_Linux基础入门/附件/第四章/soc_prj/soc_prj.xpr
+update_compile_order -fileset sources_1
+open_bd_design {E:/backup/driver_06.13/7XB702/01_Linux基础入门/附件/第四章/soc_prj/soc_prj.srcs/sources_1/bd/system/system.bd}
+regenerate_bd_layout

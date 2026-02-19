@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Aug 29 09:33:41 2025
+# Process ID: 1690860
+# Current directory: I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/ui_demosaic_4x_2_0.runs/synth_1
+# Command line: vivado.exe -log top_demosaic.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_demosaic.tcl
+# Log file: I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/ui_demosaic_4x_2_0.runs/synth_1/top_demosaic.vds
+# Journal file: I:/ISP_1x/ISP_4x/ui_demosaic_4x_2_0/ui_demosaic_4x_2_0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_demosaic.tcl -notrace

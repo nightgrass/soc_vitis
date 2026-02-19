@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Feb 24 09:10:39 2025
+# Process ID: 19960
+# Current directory: D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip/ip.runs/impl_1
+# Command line: vivado.exe -log data96_128.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source data96_128.tcl -notrace
+# Log file: D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip/ip.runs/impl_1/data96_128.vdi
+# Journal file: D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip/ip.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source data96_128.tcl -notrace

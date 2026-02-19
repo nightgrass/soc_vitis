@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Jun 19 16:29:54 2025
+# Process ID: 14200
+# Current directory: H:/L2_7020/L2-7020/soc_prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13332 H:\L2_7020\L2-7020\soc_prj\soc_prj.xpr
+# Log file: H:/L2_7020/L2-7020/soc_prj/vivado.log
+# Journal file: H:/L2_7020/L2-7020/soc_prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/L2_7020/L2-7020/soc_prj/soc_prj.xpr
+update_compile_order -fileset sources_1

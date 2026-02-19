@@ -1,0 +1,74 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Feb 24 09:09:21 2025
+# Process ID: 19868
+# Current directory: D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19760 D:\BaiduNetdiskDownload\imx415_3840x2160_1440_30p\imx415_3840x2160\fpga_prj\uisrc\03_ip\data96_128\ip\ip.xpr
+# Log file: D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip/vivado.log
+# Journal file: D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip/ip.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip'
+INFO: [Project 1-313] Project file moved from 'E:/vlkus/fpag_image/ISP_four_data/data96_128/ip' since last save.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/isp_four_data/data96_128/ip', nor could it be found using path 'E:/vlkus/fpag_image/isp_four_data/data96_128/ip'.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip/ip.gen/sources_1', nor could it be found using path 'E:/vlkus/fpag_image/ISP_four_data/data96_128/ip/ip.gen/sources_1'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/isp_four_data/data96_128/ip/component.xml', nor could it be found using path 'E:/vlkus/fpag_image/isp_four_data/data96_128/ip/component.xml'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/isp_four_data/data96_128/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/vivado2021.1/Vivado/2021.1/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip/ip.runs/synth_1
+
+launch_runs impl_1 -jobs 28
+[Mon Feb 24 09:10:21 2025] Launched synth_1...
+Run output will be captured here: D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip/ip.runs/synth_1/runme.log
+[Mon Feb 24 09:10:21 2025] Launched impl_1...
+Run output will be captured here: D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip/ip.runs/impl_1/runme.log
+ipx::package_project -root_dir D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128 -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false
+INFO: [IP_Flow 19-5151] The Range '95:0' is present in all ports of the interface 'I'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-5151] The Range '127:0' is present in all ports of the interface 'O'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+ipx::unload_core d:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128 d:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'd:/baidunetdiskdownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/vivado2021.1/Vivado/2021.1/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/isp_four_data/data96_128/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+current_project ip
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+current_project tmp_edit_project
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+set_property  ip_repo_paths  {d:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128 d:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/isp_four_data/data96_128/ip} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'd:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'd:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip'.)
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/isp_four_data/data96_128/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:data96_128:1.0'. The one found in IP location 'd:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip' will take precedence over the same IP in location d:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 24 09:13:14 2025...

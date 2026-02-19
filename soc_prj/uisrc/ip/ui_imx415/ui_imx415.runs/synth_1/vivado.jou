@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Aug 29 15:45:11 2025
+# Process ID: 1749988
+# Current directory: H:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/ui_imx415.runs/synth_1
+# Command line: vivado.exe -log imx415_AE_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source imx415_AE_top.tcl
+# Log file: H:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/ui_imx415.runs/synth_1/imx415_AE_top.vds
+# Journal file: H:/ISP/isp_3_2_imx415_ku5p/isp_3_2_imx415_ku5p/soc_prj/uisrc/03_ip/ui_ISP/ui_imx415/ui_imx415.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source imx415_AE_top.tcl -notrace

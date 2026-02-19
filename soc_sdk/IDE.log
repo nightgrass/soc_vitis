@@ -1,0 +1,17 @@
+18:23:17 INFO  : Platform repository initialization has completed.
+18:23:17 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\soc_sdk\temp_xsdb_launch_script.tcl
+18:23:18 INFO  : Registering command handlers for Vitis TCF services
+18:23:19 INFO  : XSCT server has started successfully.
+18:23:19 INFO  : plnx-install-location is set to ''
+18:23:21 INFO  : Successfully done setting XSCT server connection channel  
+18:23:21 INFO  : Successfully done query RDI_DATADIR 
+18:23:21 INFO  : Successfully done setting workspace for the tool. 
+18:23:27 INFO  : Saving repository preferences.
+18:23:27 INFO  : Reading in cores from local repositories: 
+		 D:\device-tree-xlnx-xilinx-v2020.2
+18:23:28 INFO  : Cleaning BSP projects in the workspace.
+18:23:28 INFO  : Saving repository preferences.
+18:24:14 INFO  : Result from executing command 'getProjects': soc_base
+18:24:14 INFO  : Result from executing command 'getPlatforms': 
+18:24:27 INFO  : Result from executing command 'getProjects': soc_base
+18:24:27 INFO  : Result from executing command 'getPlatforms': soc_base|D:/soc_sdk/soc_base/export/soc_base/soc_base.xpfm

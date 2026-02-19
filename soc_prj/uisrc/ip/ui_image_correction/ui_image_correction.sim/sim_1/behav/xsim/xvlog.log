@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vlkus/test/test13/imx334/A/fpga_prj/uisrc/03_ip/image correction/uisrc/01_rtl/image_correction.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module image_correction
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vlkus/test/test13/imx334/A/fpga_prj/uisrc/03_ip/image correction/uisrc/02_sim/picture_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module picture_tb

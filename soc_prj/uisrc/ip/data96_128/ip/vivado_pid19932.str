@@ -1,0 +1,126 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 19932
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Feb 24 09:15:37 CST 2025
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 28
+
+Screen size: 3840x2160
+Screen resolution (DPI): 150
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=18
+Scale size: 27
+
+Java version: 	11.0.2 64-bit
+Java home: 	D:/vivado/vivado2021.1/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	D:/vivado/vivado2021.1/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Administrator
+User home directory: C:/Users/Administrator
+User working directory: D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/vivado/vivado2021.1/Vivado
+HDI_APPROOT: D:/vivado/vivado2021.1/Vivado/2021.1
+RDI_DATADIR: D:/vivado/vivado2021.1/Vivado/2021.1/data
+RDI_BINDIR: D:/vivado/vivado2021.1/Vivado/2021.1/bin
+
+Vivado preferences file: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	D:/vivado/vivado2021.1/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip/vivado.log
+Vivado journal file: 	D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip/vivado.jou
+Engine tmp dir: 	D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip/.Xil/Vivado-19932-BF-202410300013
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/vivado/vivado2021.1/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: D:/vivado/vivado2021.1/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: D:/vivado/vivado2021.1/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: D:/vivado/vivado2021.1/Vivado/2021.1
+XILINX_SDK: D:/vivado/vivado2021.1/Vitis/2021.1
+XILINX_VITIS: D:/vivado/vivado2021.1/Vitis/2021.1
+XILINX_VIVADO: D:/vivado/vivado2021.1/Vivado/2021.1
+XILINX_VIVADO_HLS: D:/vivado/vivado2021.1/Vivado/2021.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,368 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 104 MB (+106857kb) [00:00:03]
+// [Engine Memory]: 1,368 MB (+1282587kb) [00:00:03]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: D:\BaiduNetdiskDownload\imx415_3840x2160_1440_30p\imx415_3840x2160\fpga_prj\uisrc\03_ip\data96_128\ip\ip.xpr. Version: Vivado v2021.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip/ip.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 126 MB (+17461kb) [00:00:05]
+// [GUI Memory]: 154 MB (+22153kb) [00:00:05]
+// [GUI Memory]: 161 MB (+21kb) [00:00:06]
+// WARNING: HEventQueue.dispatchEvent() is taking  1566 ms.
+// Tcl Message: open_project D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip/ip.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128'. 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/vivado2021.1/Vivado/2021.1/data/ip'. 
+// Project name: ip; location: D:/BaiduNetdiskDownload/imx415_3840x2160_1440_30p/imx415_3840x2160/fpga_prj/uisrc/03_ip/data96_128/ip; part: xc7z100ffg900-2
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// HMemoryUtils.trashcanNow. Engine heap size: 1,368 MB. GUI used memory: 111 MB. Current time: 2/24/25, 9:15:38 AM CST
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, data96_128 (data96_128.v)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, data96_128 (data96_128.v)]", 1, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1128 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, data96_128 (data96_128.v)]", 1, false); // D
+// [GUI Memory]: 170 MB (+335kb) [00:00:59]
